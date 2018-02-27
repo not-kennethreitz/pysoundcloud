@@ -119,13 +119,3 @@ class SoundCloud:
 
     def get_user(self, username):
         return User(username=username, sc=self)
-
-
-sc = SoundCloud()
-user = sc.get_user('kanyewest')
-print(user.meta)
-# print(alex.meta)
-# print(alex.meta)
-# for track in user.tracks:
-    # print(track.title)
-# print(len(alex.following))
